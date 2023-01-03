@@ -1,0 +1,21 @@
+.dsc-title {
+  text-align: center;
+  margin: 25px 0;
+  color: var(--dsc-color-font-secondary);
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .dsc-title {
+    font-size: 32px;
+  }
+}
+
+#dsc-coments-section {
+  background-color: var(--dsc-color-bg-secondary);
+  padding: 25px 20px;
+}
+
+.dsc-footer {
+  background-color: var(--dsc-color-bg-primary);
+}

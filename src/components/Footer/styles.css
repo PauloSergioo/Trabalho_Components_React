@@ -1,0 +1,21 @@
+.dsc-footer {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dsc-footer p {
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+  padding: 5px;
+}
+
+@media (min-width: 992px) {
+  .dsc-footer {
+    flex-direction: unset;
+    justify-content: space-around;
+    
+  }
+}
